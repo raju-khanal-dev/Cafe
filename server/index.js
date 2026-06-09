@@ -7,7 +7,7 @@ const mongoose = require("mongoose");
 const cors = require("cors");
 const PORT = process.env.PORT || 3000;
 
-//middleware
+//middlewares
 app.use(cors({
     origin: process.env.CLIENT_URL,
 }));
